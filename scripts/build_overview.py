@@ -66,7 +66,7 @@ def inline_md(value):
 
 
 def reference_sections():
-    sections = re.split(r'^## (.+)\n', (ROOT / 'README.md').read_text(), flags=re.M)
+    sections = re.split(r'^## (.+)\n', (ROOT / 'README.zh-CN.md').read_text(), flags=re.M)
     output = []
     for i in range(1, len(sections), 2):
         title, body = sections[i:i+2]

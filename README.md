@@ -1,31 +1,37 @@
-![Happy Music Journey：知识、最佳实践、活动](assets/journey-poster.png)
+**English** | [简体中文](README.zh-CN.md)
 
-- [知识](knowledge/README.md)：理解音乐中的概念、听觉现象与表达方式。
-- [最佳实践](practices/README.md)：整理经过实践与复查的聆听、演奏或创作方法。
-- [活动](activities/README.md)：从具体音乐问题出发，动手尝试并交流结果。
+![Happy Music Journey: Knowledge, Best Practices, and Activities](assets/journey-poster.en.png)
 
-[目录总览](https://anjing-le.github.io/happy-music-journey/overview.html)
+- [Knowledge](knowledge/README.md): Understand musical concepts, listening experiences and forms of expression.
+- [Best Practices](practices/README.md): Organize listening, performance and creation methods supported by practice and review.
+- [Activities](activities/README.md): Start with a concrete musical question, try things and discuss results.
 
-## 目标
+[Browse the content](https://anjing-le.github.io/happy-music-journey/overview.html)
 
-Happy Music Journey 是一个面向读者的音乐学习与实践记录。读者可以从问题、方法或活动进入，按自己的兴趣阅读、尝试和反馈；参与不需要使用特定 AI 工具。
+Linked module documents and the website currently remain primarily in Chinese.
 
-第一版只建立「知识、最佳实践、活动」三个入口。具体主题、方法和活动尚未确定，不预填课程，也不把未经讨论的个人经验当作通用建议。
+<a id="目标"></a>
+## Goal
 
-## 维护规则
+Happy Music Journey records music learning and practice for readers. Start from a question, method or activity, then read, try and offer feedback according to your interests. Participation does not require a particular AI tool.
 
-- **开始维护**：先读本页和目标模块 README。仓库文件是接续工作的依据。
-- **内容组织**：一份内容维护一份 Markdown，用相对链接串联。三个模块先平铺；有足够内容和明确用途时再细分。
-- **事实与判断**：事实尽量注明来源；区分已确认事实、合理推测、个人观点和待验证问题。引用乐谱、录音或作品时核对出处与使用许可。
-- **最佳实践**：写清解决的问题、做法、适用条件、实践或验证依据与限制。探索中的方法不标成已验证。
-- **活动**：围绕具体问题说明目标、参与基础、过程和可检查的成果；按需链接知识与最佳实践，不重复维护正文。
-- **公开边界**：不公开未经授权的录音、乐谱、作品或个人资料。示例、改编与真实经历分别说明来源。
-- **迭代发布**：提出问题 → 查证与尝试 → 记录结果 → 复盘修订。修改 Markdown 后检查链接，运行 `python3 scripts/build_overview.py`，再同步发布；HTML 总览不另行维护正文。
+The first version establishes only three entry points: Knowledge, Best Practices and Activities. Specific topics, methods and activities have not been selected. We do not prefill courses or present undiscussed personal experience as general advice.
 
-## 待办
+## Maintenance rules
 
-框架已建立，具体音乐主题、最佳实践和活动尚待讨论与验证。
+- **Start here**: Read this page and the target module README. Repository files provide continuity between tasks.
+- **Organization**: Maintain one Markdown source per item, connected by relative links. Start flat within each module; subdivide only when sufficient content and a clear use justify it.
+- **Facts and judgments**: Provide sources where possible. Separate confirmed facts, reasonable inferences, personal opinions and open questions. Check attribution and permission when using scores, recordings or works.
+- **Best practices**: Explain the problem, method, applicable scope, evidence and limits. Exploratory methods are not verified practices.
+- **Activities**: Specify goals, prerequisites, process and checkable outputs around a concrete question. Link relevant knowledge and practices rather than duplicating them.
+- **Public boundaries**: Do not publish unauthorized recordings, scores, works or personal information. Distinguish examples, adaptations and real experiences.
+- **Iteration**: Question → investigate and try → record → review and revise. Check Markdown links, run `python3 scripts/build_overview.py`, then publish. HTML overviews are generated, not separately maintained.
 
-- [ ] 从读者实际关心的问题中选择第一个知识主题。
-- [ ] 选择一项亲自实践过的方法，说明依据与适用范围。
-- [ ] 为第一个活动确定目标、参与基础和可检查的成果。
+<a id="待办"></a>
+## Backlog
+
+The framework exists; concrete music topics, practices and activities still need discussion and validation.
+
+- [ ] Choose the first knowledge topic from readers' real questions.
+- [ ] Select a personally tried method and explain its evidence and scope.
+- [ ] Define the first activity's goal, prerequisites and checkable outputs.
